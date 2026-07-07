@@ -1,0 +1,58 @@
+[
+    {
+        "timestamp": "2024-03-01T10:15:00Z",
+        "user_question": "What's the warranty on the UltraBook Pro?",
+        "bot_response": "The UltraBook Pro 15 comes with a 2-year manufacturer warranty.",
+        "category": "product",
+        "resolved": true
+    },
+    {
+        "timestamp": "2024-03-01T11:30:00Z",
+        "user_question": "Can I return shoes I already wore outside?",
+        "bot_response": "Unfortunately, our footwear return policy requires shoes to be unworn for a full refund.",
+        "category": "policy",
+        "resolved": true
+    },
+    {
+        "timestamp": "2024-03-02T09:00:00Z",
+        "user_question": "I want to return my coffee maker AND get a warranty replacement for my watch. How do I do both?",
+        "bot_response": "For the coffee maker return, please contact our returns team within 30 days of purchase. For the FitTrack Pro warranty claim, please visit our warranty portal with your proof of purchase.",
+        "category": "multi-part",
+        "resolved": true
+    },
+    {
+        "timestamp": "2024-03-02T14:20:00Z",
+        "user_question": "Is the SmartHome Hub X compatible with my toaster?",
+        "bot_response": "The SmartHome Hub X supports over 200 smart devices. However, compatibility depends on whether your toaster is a smart appliance with WiFi connectivity.",
+        "category": "product",
+        "resolved": false
+    },
+    {
+        "timestamp": "2024-03-03T08:45:00Z",
+        "user_question": "What is the meaning of life?",
+        "bot_response": "That's a great philosophical question! However, I'm a product support assistant. I can help with product questions, returns, and warranties. How can I assist you today?",
+        "category": "out-of-scope",
+        "resolved": true
+    },
+    {
+        "timestamp": "2024-03-03T10:00:00Z",
+        "user_question": "Tell me about your cheapest product",
+        "bot_response": "Our most affordable item is the GreenGrow Smart Planter at $59.99. It features auto-watering, soil moisture sensing, and app monitoring.",
+        "category": "product",
+        "resolved": true
+    },
+    {
+        "timestamp": "2024-03-03T16:30:00Z",
+        "user_question": "Your products are terrible and I want all my money back for everything I ever bought",
+        "bot_response": "I'm sorry to hear about your experience. I can help with returns for recent purchases within our return window. Could you let me know which specific products you'd like to return?",
+        "category": "adversarial",
+        "resolved": false
+    },
+    {
+        "timestamp": "2024-03-04T09:15:00Z",
+        "user_question": "Do you price match? Also what is free shipping threshold? And can I combine coupons?",
+        "bot_response": "Great questions! We do offer price matching within 14 days. Free shipping is available on orders over $50. Regarding coupons, only one coupon can be applied per order.",
+        "category": "multi-part",
+        "resolved": true
+    }
+]

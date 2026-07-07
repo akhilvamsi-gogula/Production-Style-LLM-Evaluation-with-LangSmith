@@ -1,0 +1,27 @@
+[
+    {
+        "inputs": {"question": "What is the return policy?"},
+        "outputs": {"answer": "30-day return policy for unused items with receipt"},
+        "metadata": {"tags": ["policy", "single-turn", "factual"]}
+    },
+    {
+        "inputs": {"question": "What is the return policy?"},
+        "outputs": {"answer": "30-day return policy for unused items with receipt"},
+        "metadata": {"tags": ["policy", "single-turn", "factual"]}
+    },
+    {
+        "inputs": {"question": "What is the return policy?"},
+        "outputs": {"answer": "30-day return policy for unused items with receipt"},
+        "metadata": {"tags": ["policy", "single-turn", "factual"]}
+    },
+    {
+        "inputs": {"question": "How much does shipping cost?"},
+        "outputs": {"answer": "Free shipping on orders over $50"},
+        "metadata": {"tags": ["policy", "single-turn", "factual"]}
+    },
+    {
+        "inputs": {"question": "How much does shipping cost?"},
+        "outputs": {"answer": "Free shipping on orders over $50"},
+        "metadata": {"tags": ["policy", "single-turn", "factual"]}
+    }
+]

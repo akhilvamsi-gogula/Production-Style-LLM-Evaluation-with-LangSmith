@@ -1,0 +1,74 @@
+[
+    {
+        "id": "PROD-001",
+        "name": "UltraBook Pro 15",
+        "category": "laptops",
+        "price": 1299.99,
+        "specs": "15-inch display, 16GB RAM, 512GB SSD, Intel i7",
+        "warranty": "2-year manufacturer warranty",
+        "return_policy": "30-day return for unopened items"
+    },
+    {
+        "id": "PROD-002",
+        "name": "CloudRunner Shoes",
+        "category": "footwear",
+        "price": 149.99,
+        "specs": "Lightweight mesh upper, responsive foam sole, sizes 6-14",
+        "warranty": "6-month defect warranty",
+        "return_policy": "30-day return, must be unworn"
+    },
+    {
+        "id": "PROD-003",
+        "name": "SmartHome Hub X",
+        "category": "electronics",
+        "price": 199.99,
+        "specs": "Voice control, WiFi 6, supports 200+ devices, 5-inch touchscreen",
+        "warranty": "1-year manufacturer warranty",
+        "return_policy": "14-day return for defective units"
+    },
+    {
+        "id": "PROD-004",
+        "name": "OrganicBrew Coffee Maker",
+        "category": "kitchen",
+        "price": 89.99,
+        "specs": "12-cup capacity, programmable timer, auto-shutoff, stainless steel",
+        "warranty": "1-year warranty",
+        "return_policy": "30-day return with receipt"
+    },
+    {
+        "id": "PROD-005",
+        "name": "FitTrack Pro Watch",
+        "category": "wearables",
+        "price": 249.99,
+        "specs": "Heart rate monitor, GPS, 7-day battery, water resistant 50m",
+        "warranty": "1-year warranty, battery not covered",
+        "return_policy": "30-day return, must include all accessories"
+    },
+    {
+        "id": "PROD-006",
+        "name": "EcoClean Robot Vacuum",
+        "category": "home",
+        "price": 399.99,
+        "specs": "LIDAR navigation, 180-min battery, auto-empty dock, app control",
+        "warranty": "2-year warranty including battery",
+        "return_policy": "30-day return if unused"
+    },
+    {
+        "id": "PROD-007",
+        "name": "ProSound Wireless Earbuds",
+        "category": "audio",
+        "price": 79.99,
+        "specs": "Active noise cancellation, 8-hour battery, Bluetooth 5.3, IPX5",
+        "warranty": "1-year warranty",
+        "return_policy": "30-day return in original packaging"
+    },
+    {
+        "id": "PROD-008",
+        "name": "GreenGrow Smart Planter",
+        "category": "garden",
+        "price": 59.99,
+        "specs": "Auto-watering, soil moisture sensor, grow light, app monitoring",
+        "warranty": "6-month warranty",
+        "return_policy": "14-day return, plant not included"
+    }
+]
