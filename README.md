@@ -1,4 +1,5 @@
-# LangSmith LLM Evaluation Prototype
+# Production Style LLM Evaluation with LangSmith
+
 
 A practical prototype for evaluating an LLM-powered support assistant using LangSmith.
 
