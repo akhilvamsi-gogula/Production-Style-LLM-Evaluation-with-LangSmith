@@ -39,34 +39,67 @@ This part builds a practical evaluation pipeline with:
 
 ## Project structure
 
-- data/ - unified datasets and prompt files for the prototype
-- build_dataset.py - create the golden dataset
-- add_edge_cases.py - add edge cases and adversarial examples
-- upload_dataset.py - upload the dataset to LangSmith
-- tag_and_filter.py - tag and filter examples by category
-- version_dataset.py - create a versioned dataset copy
-- run_coverage_test.py - run evaluation and analyze coverage gaps
-- build_qa_pipeline.py - build the Q&A pipeline
-- create_keyword_evaluator.py - create a keyword-based evaluator
-- create_llm_judge.py - create an LLM-as-judge evaluator
-- run_experiment.py - run the full evaluation experiment
-- compare_experiments.py - compare prompt versions
-- production_report.py - generate a production-readiness report
-- verify_environment.py - verify the setup
+```
+scripts/
+├── 00_setup/
+│   ├── verify_environment.py      # Verify environment setup
+│   ├── create_keyword_evaluator.py # Create keyword-based evaluator
+│   └── create_llm_judge.py        # Create LLM-as-judge evaluator
+├── 01_dataset/
+│   ├── build_dataset.py           # Create the golden dataset
+│   ├── upload_dataset.py          # Upload dataset to LangSmith
+│   ├── version_dataset.py         # Create versioned dataset copy
+│   └── tag_and_filter.py          # Tag and filter examples by category
+├── 02_evaluation/
+│   ├── build_qa_pipeline.py       # Build the Q&A pipeline
+│   ├── run_experiment.py          # Run full evaluation experiment
+│   ├── run_coverage_test.py       # Run evaluation and analyze coverage gaps
+│   └── compare_experiments.py     # Compare prompt versions
+└── 03_reporting/
+    └── production_report.py       # Generate production-readiness report
+
+data/ - unified datasets and prompt files for the prototype
+```
 
 ## Getting started
 
 1. Clone the repository
 2. Create and activate a Python virtual environment
 3. Install dependencies with `pip install -r requirements.txt`
-4. Set your environment variables for LangSmith and the LLM provider
-5. Run the scripts in order
+4. Set your environment variables for LangSmith and the LLM provider (see `.env.example`)
+5. Run the scripts in order (see Execution Order below)
 
-## Suggested order
+## Execution Order
 
-1. Run the dataset scripts to build and upload the evaluation set
-2. Run the pipeline and evaluator scripts
-3. Compare experiments and generate the production report
+### Phase 0: Setup
+```bash
+python scripts/00_setup/verify_environment.py
+python scripts/00_setup/create_keyword_evaluator.py
+python scripts/00_setup/create_llm_judge.py
+```
+
+### Phase 1: Dataset Creation & Management
+```bash
+python scripts/01_dataset/build_dataset.py
+python scripts/01_dataset/upload_dataset.py
+python scripts/01_dataset/version_dataset.py
+python scripts/01_dataset/tag_and_filter.py
+```
+
+### Phase 2: Evaluation Pipeline
+```bash
+python scripts/02_evaluation/build_qa_pipeline.py
+python scripts/02_evaluation/run_experiment.py
+python scripts/02_evaluation/run_coverage_test.py
+python scripts/02_evaluation/compare_experiments.py
+```
+
+### Phase 3: Reporting
+```bash
+python scripts/03_reporting/production_report.py
+```
+
+## Use case
 
 ## Use case
 
