@@ -101,8 +101,6 @@ python scripts/03_reporting/production_report.py
 
 ## Use case
 
-## Use case
-
 This prototype is designed around a customer-support-style Q&A assistant where answer quality, edge-case handling, and prompt reliability matter.
 
 ## Portfolio positioning
